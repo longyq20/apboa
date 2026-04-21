@@ -43,6 +43,6 @@ jobs:
           push: true
           # 格式为：ghcr.io/你的github用户名(必须全小写!)/apboa-frontend:latest
           # 请把下面这行的 your_github_username 替换为你自己的 GitHub 用户名（全小写）
-          tags: ghcr.io/your_github_username/apboa-frontend:latest
+          tags: ghcr.io/longyq20/apboa-frontend:latest
           cache-from: type=gha
           cache-to: type=gha,mode=max
